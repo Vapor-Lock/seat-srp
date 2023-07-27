@@ -17,13 +17,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Vapor-Lock\\Seat\\SeatSrp\\": "src/"
+            "Denngarr\\Seat\\SeatSrp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vapor-Lock\\Seat\\SeatSrp\\SrpServiceProvider"
+                "Denngarr\\Seat\\SeatSrp\\SrpServiceProvider"
             ]
         }
      },	     
