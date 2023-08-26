@@ -286,7 +286,7 @@ trait SrpManager
         $partsList = implode("\n", $priceList);
 
         $response = (new Client())
-            ->request('POST', 'http://evepraisal.turbofeedorglory.com/appraisal.json?market=jita', [
+            ->request('POST', 'https://evepraisal.vaporlock.space/appraisal.json?market=jita', [
                 'multipart' => [
                     [
                         'name' => 'uploadappraisal',
